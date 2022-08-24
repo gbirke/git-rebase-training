@@ -1,0 +1,23 @@
+img {
+	max-height: 300px;
+}
+
+header h1 {
+	text-align: center;
+	font-family: fantasy;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px 80px;
+}
+
+.puppy-box {
+	flex: 1 1 auto;
+	justify-content: center;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+

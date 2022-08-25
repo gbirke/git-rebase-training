@@ -1,0 +1,25 @@
+From 527cc63103731b3894d0c42477218e585e2e9d36 Mon Sep 17 00:00:00 2001
+From: Ben the Benefactor <ben@example.com>
+Date: Thu, 25 Aug 2022 16:10:22 +0200
+Subject: [PATCH] Shinify the title
+
+Give it a shine, the color of Golden Retriever fur
+---
+ style.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/style.css b/style.css
+index fb0e71d..9022fba 100644
+--- a/style.css
++++ b/style.css
+@@ -5,6 +5,7 @@ img {
+ header h1 {
+ 	text-align: center;
+ 	font-family: fantasy;
++	text-shadow: 0px 0px 5px DarkGoldenRod;
+ }
+ 
+ main {
+-- 
+2.37.2
+

@@ -4,8 +4,8 @@
 
 git branch -D petting-puppies
 git checkout -b petting-puppies main
-cat lessons/02-two-conflicting-branches/petting-puppies/*.patch | git am
-git branch -D jumping-puppies
-git checkout -b jumping-puppies main
-cat lessons/02-two-conflicting-branches/jumping-puppies/*.patch | git am
+cat lessons/01-merge-workflow/petting-puppies/*.patch | git am
+git branch -D shiny-title
+git checkout -b shiny-title main
+cat lessons/01-merge-workflow/shiny-title/*.patch | git am
 git checkout main

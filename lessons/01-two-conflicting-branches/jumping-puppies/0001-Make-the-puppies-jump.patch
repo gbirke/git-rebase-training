@@ -1,0 +1,49 @@
+From 3e71f81f3a06819c954b51b1b2aacb3600e90e67 Mon Sep 17 00:00:00 2001
+From: Ben the Benefactor <ben@example.com>
+Date: Thu, 25 Aug 2022 10:11:04 +0200
+Subject: [PATCH] Make the puppies jump
+
+Add an animation that makes the puppies jump if you hover the cursor
+over them
+---
+ style.css | 21 ++++++++++++++++++++-
+ 1 file changed, 20 insertions(+), 1 deletion(-)
+
+diff --git a/style.css b/style.css
+index fb0e71d..b479beb 100644
+--- a/style.css
++++ b/style.css
+@@ -1,3 +1,15 @@
++@keyframes bounce {
++	0%, 100%, 20%, 50%, 80% {
++		transform:         translateY(0)
++	}
++	40% {
++		transform:         translateY(-30px)
++	}
++	60% {
++		transform:         translateY(-15px)
++	}
++}
++
+ img {
+ 	max-height: 300px;
+ }
+@@ -18,6 +30,13 @@ main {
+ 	justify-content: center;
+ 	margin: 10px;
+ 	box-sizing: border-box;
+-}
+ 
++	animation-duration: 1s;
++	animation-fill-mode: both;
++	animation-timing-function: ease-in-out;
++	animation-iteration-count: infinite;
++}
+ 
++.puppy-box:hover {
++	animation-name: bounce;
++}
+-- 
+2.37.1
+

@@ -1,0 +1,26 @@
+From 32f79580f7880f2ca0e844976ab6f2774159d6d9 Mon Sep 17 00:00:00 2001
+From: Alicia Sparklejoy <joy@example.com>
+Date: Thu, 25 Aug 2022 09:35:55 +0200
+Subject: [PATCH] Turn cursor into a hand
+
+Now you can pet the puppies!
+---
+ style.css | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/style.css b/style.css
+index fb0e71d..6a777b8 100644
+--- a/style.css
++++ b/style.css
+@@ -20,4 +20,7 @@ main {
+ 	box-sizing: border-box;
+ }
+ 
+-
++/* Turn the cursor into a hand to pet the puppies */
++.puppy-box:hover {
++	cursor: grab;
++}
+-- 
+2.37.1
+

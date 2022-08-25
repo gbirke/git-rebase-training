@@ -10,7 +10,7 @@ Git commands to reconcile the changes.
 TODO
 
 - Prerequisites (Git, some command line experience, command line editor).
-- Introductory explanation (merges, what are "pull requests" (moderated
+- Introductory explanation (merges (with `--no-ff` to simulate pull requests), what are "pull requests" (moderated
 	merges), `git log`, `git branch` for listing branches; we don't teach
 	how to commit in this tutorial)
 - Explain how to reset

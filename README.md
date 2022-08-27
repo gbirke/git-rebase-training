@@ -31,3 +31,8 @@ TODO
 	how to commit in this tutorial)
 - Explain how to reset
 - Explain how to start a lesson
+- Explain the different files in a lesson: README describes the task,
+	HOWTO describes the steps. Things are
+	separated into files to accommodate different learning levels and
+	styles: figuring out on your own, following step-by-step, doing the
+	exercise in repetitive intervals to help you remember all the parameters and steps.

@@ -21,6 +21,23 @@ branched off and where they merged again.
 This is useful if you want to see where unmerged branches branched off
 the main tree.
 
+`git reset --hard clean-slate` will reset the repository to its initial
+state. The command will remove all commits (merge commits and commits to a
+branch) that were not part of the initial state. `clean-slate` is the name
+of a [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) in the
+repository.
+
+## Fetching a new version of this repository
+
+Use the following command to fetch a new version of this repository:
+
+	git fetch origin --tags --force
+
+This will reset the tag `clean-slate` to whatever is set on the remote
+repository. The tag `clean-slate` will always be the most current version
+of the `main` branch.
+
+
 TODO
 
 - Prerequisites (Git, some command line experience, command line editor).
@@ -36,3 +53,4 @@ TODO
 	separated into files to accommodate different learning levels and
 	styles: figuring out on your own, following step-by-step, doing the
 	exercise in repetitive intervals to help you remember all the parameters and steps.
+- Explain how this works

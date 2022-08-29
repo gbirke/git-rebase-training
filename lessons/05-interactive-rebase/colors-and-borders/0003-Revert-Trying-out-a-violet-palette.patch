@@ -1,0 +1,37 @@
+From 03b3657c8974bb8bef9d055136778ed102dbf504 Mon Sep 17 00:00:00 2001
+From: Alicia Sparklejoy <joy@example.com>
+Date: Sat, 27 Aug 2022 08:49:01 +0200
+Subject: [PATCH 3/5] Revert "Trying out a violet palette"
+
+Those violets don't match with puppies
+---
+ style.css | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/style.css b/style.css
+index 61d55ce..5893c62 100644
+--- a/style.css
++++ b/style.css
+@@ -1,16 +1,16 @@
+ body {
+-	background: #F2D7D9;
++	background: #F7ECDE;
+ }
+ 
+ img {
+ 	max-height: 300px;
+-	border: solid 10px #D3CEDF;
++	border: solid 10px #9ED2C6;
+ }
+ 
+ header h1 {
+ 	text-align: center;
+ 	font-family: fantasy;
+-	color: #748DA6;
++	color: #54BAB9;
+ }
+ 
+ main {
+-- 
+2.37.2
+

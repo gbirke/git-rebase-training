@@ -1,0 +1,47 @@
+From 9e8f11a9d1aaafbc5bcc501743ba9677eddbadbe Mon Sep 17 00:00:00 2001
+From: Alicia Sparklejoy <joy@example.com>
+Date: Sat, 27 Aug 2022 13:40:12 +0200
+Subject: [PATCH 5/5] Final color scheme
+
+This one harmonizes with the fur color of the puppies, yay!
+
+Thanks to https://colorhunt.co/palette/87805eb09b71d8cca3eddfb3
+---
+ style.css | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/style.css b/style.css
+index 20300ca..7342c5c 100644
+--- a/style.css
++++ b/style.css
+@@ -1,10 +1,10 @@
+ body {
+-	background: #F7ECDE;
++	background: #EDDFB3;
+ }
+ 
+ img {
+ 	max-height: 300px;
+-	border: solid 10px #9ED2C6;
++	border: solid 10px #B09B71;
+ }
+ 
+ header {
+@@ -14,12 +14,12 @@ header {
+ header h1 {
+ 	text-align: center;
+ 	font-family: fantasy;
+-	color: #54BAB9;
++	color: #87805E;
+ }
+ 
+ header h1:after {
+ 	position: absolute;
+-	background-color: #54BAB9;
++	background-color: #D8CCA3;
+ 	content: '';
+ 	width: 50%;
+ 	height: 2px;
+-- 
+2.37.2
+

@@ -1,0 +1,37 @@
+From b3c2f46a94964bd61450b99eab48fb51b1502f3b Mon Sep 17 00:00:00 2001
+From: Alicia Sparklejoy <joy@example.com>
+Date: Sat, 27 Aug 2022 08:48:05 +0200
+Subject: [PATCH 2/5] Trying out a violet palette
+
+Taken from https://colorhunt.co/palette/f2d7d9d3cedf9cb4cc748da6
+---
+ style.css | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/style.css b/style.css
+index 5893c62..61d55ce 100644
+--- a/style.css
++++ b/style.css
+@@ -1,16 +1,16 @@
+ body {
+-	background: #F7ECDE;
++	background: #F2D7D9;
+ }
+ 
+ img {
+ 	max-height: 300px;
+-	border: solid 10px #9ED2C6;
++	border: solid 10px #D3CEDF;
+ }
+ 
+ header h1 {
+ 	text-align: center;
+ 	font-family: fantasy;
+-	color: #54BAB9;
++	color: #748DA6;
+ }
+ 
+ main {
+-- 
+2.37.2
+

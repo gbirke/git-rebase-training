@@ -1,0 +1,43 @@
+From f8a60b6c3fbd447973768f91589c9950daaec1bd Mon Sep 17 00:00:00 2001
+From: Alicia Sparklejoy <joy@example.com>
+Date: Sat, 27 Aug 2022 13:37:23 +0200
+Subject: [PATCH 4/5] Add line below header
+
+---
+ style.css | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+
+diff --git a/style.css b/style.css
+index 5893c62..20300ca 100644
+--- a/style.css
++++ b/style.css
+@@ -7,12 +7,26 @@ img {
+ 	border: solid 10px #9ED2C6;
+ }
+ 
++header {
++	position: relative;
++}
++
+ header h1 {
+ 	text-align: center;
+ 	font-family: fantasy;
+ 	color: #54BAB9;
+ }
+ 
++header h1:after {
++	position: absolute;
++	background-color: #54BAB9;
++	content: '';
++	width: 50%;
++	height: 2px;
++	bottom: -5px;
++	left: 25%;
++}
++
+ main {
+ 	display: flex;
+ 	flex-wrap: wrap;
+-- 
+2.37.2
+

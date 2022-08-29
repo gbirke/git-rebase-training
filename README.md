@@ -1,10 +1,12 @@
-# Learning trunk-based development with puppies
+# Learning a rebase-and-merge Git workflow with puppies
 
-This is a repository for learning to deal with typical situations when
-collaborating on a code base. Our example is a web site for showing
-pictures of puppies. You work on this website with your friends, but
-sometimes you make changes independently from each other and need to use
-Git commands to reconcile the changes.
+This is a repository for learning a rebase-and-merge Git workflow. It has
+typical situations that occur when collaborating on a code base.
+
+Our example is a web site for showing pictures of puppies. You work on
+this website with your friends, but sometimes you make changes
+independently from each other and need to use Git commands to reconcile
+the changes.
 
 ## Useful git commands
 

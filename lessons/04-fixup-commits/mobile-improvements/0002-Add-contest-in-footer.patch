@@ -1,0 +1,43 @@
+From 0f211d2f2f3dd14eca12fd0e2b90bbd8f6964d99 Mon Sep 17 00:00:00 2001
+From: Alicia Sparklejoy <joy@example.com>
+Date: Thu, 25 Aug 2022 22:46:49 +0200
+Subject: [PATCH 2/2] Add contest in footer
+
+Maybe we can engage with our audience if we tell them to look for cute
+puppies too!
+---
+ index.html | 1 +
+ style.css  | 6 ++++++
+ 2 files changed, 7 insertions(+)
+
+diff --git a/index.html b/index.html
+index e4295ef..c4b1982 100644
+--- a/index.html
++++ b/index.html
+@@ -27,5 +27,6 @@
+ 			<img src="assets/Puppy.jpg" alt="A puppy on the grass, putting their paw on a wooden deck">
+ 		</div>
+ 	</main>
++	<footer>We found these images on <a href="https://commons.wikimedia.org/">Wikimedia Commons</a>, maybe you can find more of these cuties!</footer>
+ </body>
+ </html>
+diff --git a/style.css b/style.css
+index 191d073..fdeaff4 100644
+--- a/style.css
++++ b/style.css
+@@ -8,6 +8,12 @@ header h1 {
+ 	font-family: fantasy;
+ }
+ 
++footer {
++	font-size: 75%;
++	margin: 10px 0;
++	text-align: center;
++}
++
+ main {
+ 	display: flex;
+ 	flex-wrap: wrap;
+-- 
+2.37.2
+

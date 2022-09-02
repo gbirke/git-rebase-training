@@ -1,12 +1,23 @@
-# Learning a rebase-and-merge Git workflow with puppies
+# Learning a rebase-and-merge Git workflow
 
-This is a repository for learning a rebase-and-merge Git workflow. It has
-typical situations that occur when collaborating on a code base.
+This is a repository for learning a rebase-and-merge Git workflow with
+small dev branches. It has setup scripts that create typical situations
+that occur when collaborating on a code base.
 
 Our example is a web site for showing pictures of puppies. You work on
 this website with your friends, but sometimes you make changes
 independently from each other and need to use Git commands to reconcile
 the changes.
+
+## The Workflow
+
+The Git workflow for adding new code to a code base works like this:
+
+1. A developer creates a branch off the `main` branch.
+2. The developer commits changes to the new branch
+3. When the changes are ready, the developer merges the branch back into
+   the `main` branch.
+
 
 ## Useful git commands
 
@@ -35,9 +46,9 @@ Use the following command to fetch a new version of this repository:
 
 	git fetch origin --tags --force
 
-This will reset the tag `clean-slate` to whatever is set on the remote
-repository. The tag `clean-slate` will always be the most current version
-of the `main` branch.
+This will reset the tag `clean-slate` to whatever commit the tag
+references on the remote repository. The tag `clean-slate` will always be
+the most current version of the `main` branch.
 
 
 TODO

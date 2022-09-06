@@ -64,6 +64,5 @@ from lessons you started.
 TODO
 
 - Short Lesson descriptions here
-- Introductory explanation (merges (with `--no-ff` to simulate pull requests), what are "pull requests" (moderated
-	merges)
+- how to show the website and reload it when you switch/merge branches
 - Explain how this works ()

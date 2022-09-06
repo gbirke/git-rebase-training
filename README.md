@@ -26,21 +26,8 @@ names.
 This is useful if you want to see where unmerged branches branched off
 the main tree.
 
-`git switch main && git reset --hard clean-slate` will reset the
-repository to its initial state. The commands will remove all commits in
-the `main` branch that were not part of the initial state. `clean-slate`
-is the name of a [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
-in the repository.
-
-## Fetching a new version of this repository
-
-Use the following command to fetch a new version of this repository:
-
-	git fetch origin --tags --force
-
-This will reset the tag `clean-slate` to whatever commit the tag
-references on the remote repository. The tag `clean-slate` will always be
-the most current version of the `main` branch.
+`git switch main && git reset --hard origin/main` will reset the
+repository to its initial state.
 
 
 TODO

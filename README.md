@@ -1,56 +1,13 @@
-# Learning a rebase-and-merge Git workflow
+# Git rebase lessons
 
-This is a repository for learning a rebase-and-merge Git workflow with
-small dev branches. It has setup scripts that create typical situations
-that occur when collaborating on a code base.
+This is a repository for learning to use `git rebase` in different
+scenarios, using small dev branches. It has setup scripts that create
+typical situations that occur when collaborating on a code base.
 
 Our example is a web site for showing pictures of puppies. You work on
 this website with your friends, but sometimes you make changes
 independently from each other and need to use Git commands to reconcile
 the changes.
-
-## The Workflow
-
-This repository teaches a workflow model I call "trunk-based development
-with small branches and rebase-before-merge". There are different
-workflows that satisfy different team needs. If you are using branches in
-your workflow, lessons 2-6 will still be useful to you.
-
-The Git workflow for adding new code to a code base works like this:
-
-1. A developer creates a branch off the `main` branch.
-2. The developer commits changes to the new branch
-3. When the changes are ready, the developer merges the branch back into
-   the `main` branch.
-
-
-The `git log --graph` will then show the branch and how it got re-integrated into
-the main branch:
-
-```
-*   6542d176 Merge branch 'image-borders' into main
-|\  
-| * 1e1d9cae Improve image borders
-|/  
-*   360b6d4 Merge branch 'restructure-layout' into main
-|\  
-| * a3e0257 Adapt margin and padding
-| * 281fbe9 Use flex layout
-|/  
-* adfbcc5 First commit 
-```
-
-Ideally, your graph will look like this - a succession of small "bumps"
-(short-lived branches) that follow one after the other.
-
-### Benefits of the workflow
-
-- It works well with the GitHub/GitLab UI.
-- Asynchronous working mode. Developers can work independently from each other and put up code reviews.
-- The history shows both individual commits and bigger feature steps related to tickets.
-- The main branch is always ready for deployment
-- Merge conflicts (when two developers work on the same file in different
-	branches) are small and localized.
 
 
 ## Useful git commands
